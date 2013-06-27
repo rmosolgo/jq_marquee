@@ -8,7 +8,8 @@
 			$(function() {
 				$('#marquee_1').marquee()
 				$('#marquee_2').marquee({period: 1000})
-				$('#marquee_3').marquee({container: "#custom_container"})
+				$('#marquee_3').marquee({phase: 1000})
+				$('#marquee_4').marquee({target: "#custom_container"})
 
 			})
 		</script>
@@ -50,8 +51,17 @@
 			<li>Never gonna say goodbye, </li>
 			<li>Never gonna tell a lie and hurt you.</li>
 		</ul>
-		<p> Custom speed: </p>
+		<p> Custom scroll speed: </p>
 		<ul id='marquee_2' class='marquee'>
+			<li>Never gonna give you up, </li>
+			<li>Never gonna let you down, </li>
+			<li>Never gonna run around and desert you. </li>
+			<li>Never gonna make you cry, </li>
+			<li>Never gonna say goodbye, </li>
+			<li>Never gonna tell a lie and hurt you.</li>
+		</ul>
+		<p> Custom transition speed: </p>
+		<ul id='marquee_3' class='marquee'>
 			<li>Never gonna give you up, </li>
 			<li>Never gonna let you down, </li>
 			<li>Never gonna run around and desert you. </li>
@@ -61,7 +71,7 @@
 		</ul>
 		<p> Custom container: </p>
 		<p id='custom_container'> Hover here! </p>
-		<ul id='marquee_3' class='marquee'>
+		<ul id='marquee_4' class='marquee'>
 			<li>Never gonna give you up, </li>
 			<li>Never gonna let you down, </li>
 			<li>Never gonna run around and desert you. </li>
