@@ -7,6 +7,9 @@ There are a lot of wonderful marquee plugins out there, but this one:
 - Expands like an accordion on mousenter
 - Resumes on mouseleave
 
+
+Extracted from [China.AidData.org](http://china.aiddata.org), bare-bones [jsFiddle](http://jsfiddle.net/RSwwk/2/).
+
 ## Usage
 
 1. Include the plugin after jQuery:
