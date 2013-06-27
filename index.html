@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> jQuery Marquee </title>
+		<script src="lib/jquery.js"></script>
+		<script src="jq_marquee.js"></script>
+		<script>
+			$(function() {
+				$('#marquee_1').marquee()
+				$('#marquee_2').marquee({period: 1000})
+				$('#marquee_3').marquee({container: "#custom_container"})
+
+			})
+		</script>
+		<style>
+			.marquee {
+				list-style:none;
+				display: block;
+				background-color: #124;
+				color: white;	
+				width: 500px;
+				padding: 20px;
+			}
+
+			.marqee li {
+				padding: 5px 0px;
+			}
+
+			#custom_container {
+				color: #942;
+				background-color: #fee;
+				font-weight: bold;
+				padding:20px;
+				width: 500px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1> jQuery Marquee </h1>
+
+		<p> A test of the jQ marquee plugin. </p>
+		<hr>
+		<p> Default speed: </p>
+		<ul id='marquee_1' class='marquee'>
+			<li>Never gonna give you up, </li>
+			<li>Never gonna let you down, </li>
+			<li>Never gonna run around and desert you. </li>
+			<li>Never gonna make you cry, </li>
+			<li>Never gonna say goodbye, </li>
+			<li>Never gonna tell a lie and hurt you.</li>
+		</ul>
+		<p> Custom speed: </p>
+		<ul id='marquee_2' class='marquee'>
+			<li>Never gonna give you up, </li>
+			<li>Never gonna let you down, </li>
+			<li>Never gonna run around and desert you. </li>
+			<li>Never gonna make you cry, </li>
+			<li>Never gonna say goodbye, </li>
+			<li>Never gonna tell a lie and hurt you.</li>
+		</ul>
+		<p> Custom container: </p>
+		<p id='custom_container'> Hover here! </p>
+		<ul id='marquee_3' class='marquee'>
+			<li>Never gonna give you up, </li>
+			<li>Never gonna let you down, </li>
+			<li>Never gonna run around and desert you. </li>
+			<li>Never gonna make you cry, </li>
+			<li>Never gonna say goodbye, </li>
+			<li>Never gonna tell a lie and hurt you.</li>
+		</ul>
+	</body>
+</html>
