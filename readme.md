@@ -41,7 +41,7 @@ There are a lot of wonderful marquee plugins out there, but this one:
 
 The `.marquee()` method takes an optional _options_ object, which may have the following attributes:
 
-```JSON
+```javascript
 	options = {
 		target: "#custom_container",   // a css selector (string)
 		period: 4000,                  // number of milliseconds to show each item
