@@ -1,4 +1,3 @@
-
 # jQ Marquee
 
 There are a lot of wonderful marquee plugins out there, but this one:
@@ -46,7 +45,7 @@ The `.marquee()` method takes an optional _options_ object, which may have the f
 
 ```javascript
 	options = {
-		target: "#custom_container",   // a css selector (string)
+		target: "#custom_container",   // a css selector for the element to respond to mouseenter
 		period: 4000,                  // number of milliseconds to show each item
 		phase:  1000,                  // number of milisections to between items and during slide up/down
 	}
